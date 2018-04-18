@@ -9,7 +9,20 @@ Apenas rode
 pip3 install face_recognition
 ```
 
+Para rodas as aplicações com "interface gráfica", também precisaremos do CV2
+```
+pip3 install opencv-python
+```
+
 # Como rodar
+
+## Versão com interface:
+```
+identificar.py teste\faustao-1.jpg
+```
+
+## Versão CLI
+
 ```
 comparar.py teste\faustao-1.jpg teste\faustao-2.jpg teste\faustoes.jpg teste\luciano-huck.jpg
 ```
